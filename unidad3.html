@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electronica Digital.</title>
+</head>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+<body>
+
+  <!-- Unidades -->
+  <section class="page-section" id="Unidades">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" >Unidad 3</h2>
+        </div>
+      </div>
+        <div class="col-md-12">
+          <span class="fa-stack fa-4x">
+          </span>
+          <h4 class="service-heading" >Electronica Digital.</h4>
+          <h5 class="service-heading" >Compuertas Logicas.</h5>
+          <p class="text-muted">Compuertas lógicas o Puerta lógica. Circuitos lógicos de conmutación que a partir de interruptores booleanos cumplen una condición particular. Son esencialmente Circuitos de conmutación integrados en un Chip. Las compuertas son bloques del Hardware que producen señales en binario 1 ó 0 cuando se satisfacen los requisitos de entrada lógica.</p>
+         <h5 class="service-heading" >Tabla de Verdad.</h5>
+         <img src="../principios/img/tabla-verdad.jpg">
+         <h4 class="service-heading">Logica TTL.</h4>
+         <h5 class="service-heading">NOT.</h5>
+          <p class="text-muted">En lógica digital, un inversor, puerta NOT o compuerta NOT es una puerta lógica que implementa la negación lógica . Siempre que su entrada está en 0 (cero) o en BAJA, su salida está en 1 o en ALTA, mientras que cuando su entrada está en 1 o en ALTA, su SALIDA va a estar en 0 o en BAJA.
+          <br>La función física del inversor, es la de cambiar en su salida el nivel del voltaje de su entrada entre los definidos como lógico ALTO Y lógico BAJO.</p>
+          <h5 class="service-heading">OR.</h5>
+          <p class="text-muted">En el Algebra de Boole esta es una suma. Esta compuerta permite que con cualquiera de sus entradas que este en estado binario 1, su salida pasara a un estado 1 también. No es necesario que todas sus entradas estén accionadas para conseguir un estado 1 a la salida pero tampoco causa algún inconveniente. Para lograr un estado 0 a la salida, todas sus entradas deben estar en el mismo valor de 0. Se puede interpretar como dos interruptores en paralelo, que sin importar cual se accione, será posible el paso de la corriente.</p>
+           <h5 class="service-heading">AND.</h5>
+          <p class="text-muted">Esta compuerta es representada por una multiplicación en el Algebra de Boole. Indica que es necesario que en todas sus entradas se tenga un estado binario 1 para que la salida otorgue un 1 binario. En caso contrario de que falte alguna de sus entradas con este estado o no tenga si quiera una accionada, la salida no podrá cambiar de estado y permanecerá en 0. Esta puede ser simbolizada por dos o más interruptores en serie de los cuales todos deben estar activos para que esta permita el flujo de la corriente.</p>
+          <h5 class="service-heading">NOR.</h5>
+          <p class="text-muted">Así como vimos anteriormente, la compuerta OR también tiene su versión inversa. Esta compuerta cuando tiene sus entradas en estado 0 su salida estará en 1, pero si alguna de sus entradas pasa a un estado 1 sin importar en qué posición, su salida será un estado 0.</p>
+          <h5 class="service-heading">NAND.</h5>
+          <p class="text-muted">También denominada como AND negada, esta compuerta trabaja al contrario de una AND ya que al no tener entradas en 1 o solamente alguna de ellas, esta concede un 1 en su salida, pero si esta tiene todas sus entradas en 1 la salida se presenta con un 0.</p>
+           <h5 class="service-heading">Teoremas, postulados de Boole.</h5>
+           <p class="service-heading"><strong>Postulado.</strong></p>
+          <img src="../principios/img/postulado.jpg">
+          <p class="service-heading"><strong>Leyes y Teoremas.</strong></p>
+          <img src="../principios/img/leyes-teoremas.jpg">
+          <h5 class="service-heading">Miniterminos y Maxiterminos.</h5>
+          <p class="text-muted"><strong>Miniterminos</strong>
+          	<br>Para una función booleana de n variables x1,...xn, un producto booleano en el que cada una de las n variables aparece una sola vez (negada o sin negar) es llamado minterms. Es decir, un minterms es una expresión lógica de n variables consistente únicamente en el operador conjunción lógica (AND) y el operador complemento o negación (NOT).
+            <br>Por ejemplo, abc, ab'c y abc' son ejemplos de minterms para una función booleana con las tres variables a, b y c.
+            En general, uno asigna a cada minterm (escribiendo las variables que lo componen en el mismo orden), un índice basado en el valor binario del minterm. un término negado, como a' es considerado como el numero binario 0 y el término no negado a es considerado como un 1. Por ejemplo, se asociaría el número 6 con a b c'(1102), y nombraríamos la expresión con el nombre m6. Entonces m0 de tres variables es a'b'c'(0002) y m7 debería ser a b c(1112)
+            <br><strong>Maxiterminos</strong>
+            <br>Un maxterm es una expresión lógica de n variables que consiste únicamente en la disyunción lógica y el operador complemento o negación. Los maxterms són una expresión dual de los minterms. En vez de usar operaciones AND utilizamos operaciones OR y procedemos de forma similar.
+            <br>Por ejemplo, los siguientes son maxterms:
+            <br>a+b'+c
+            <br>a'+b+c</p>
+            <h5 class="service-heading">Tecnicas de Simplificacion.</h5>
+          <p class="text-muted">1. Utilizando las propiedades y teoremas del álgebra de Boole. Se denomina método analítico de simplificación de funciones. Hay que manejar muy bien estas propiedades para poder eliminar la mayor cantidad de términos y variables.
+          <br>2. Utilizando el método de Karnaugh. Es un método gráfico que, si lo aplicamos bien, nos garantiza que obtendremos la función más simplificada posible. En este curso analizaremos este curso.</p>
+          <h5 class="service-heading">Diseño.</h5>
+          <p class="text-muted">Con la metodología de diseño de circuitos electrónicos en el laboratorio se crea un interés por observar y explorar como pequeños científicos las características de la electrónica análoga y digital, teniendo como principio fundamental el reconocimiento teórico y matemático de la ley de Ohm, los teoremas y principios de diferentes científicos como Nikola Tesla, Thomas Edison y Georg Simon Ohm, guiados de un facilitador en el planteamiento, desarrollo y solución del problema para poder crear prototipos o productos de ciencia, tecnología e innovación con metodologías de investigación</p>
+          <h5 class="service-heading">Aplicacion de Circuitos combinacionales.</h5>
+          <p class="text-muted">Todos los circuitos combinacionales pueden representarse empleando álgebra de Boole a partir de su función lógica, generando de forma matemática el funcionamiento del sistema combinacional. De este modo, cada señal de entrada es una variable de la ecuación lógica de salida. Por ejemplo, un sistema combinacional compuesto exclusivamente por una puerta AND tendría dos entradas A y B. Su función combinacional sería {\displaystyle F=A\cdot B} F=A\cdot B, para una puerta OR sería {\displaystyle F=A+B\,} F=A+B\,. Estas operaciones se pueden combinar formando funciones más complejas.
+          <br>Esto permite emplear diferentes métodos de simplificación para reducir el número de elementos combinacionales que forman el sistema</p>
+          <h5 class="service-heading">Temporizadores (555).</h5>
+          <p class="text-muted">El temporizador 555 es un circuito integrado de 8 terminales que se utiliza para la generación de intervalos de tiempo. A pesar de que se utiliza principalmente como temporizador para activar o desactivar algún circuito o componente electrónico, también lo podemos utilizar como generador de pulsos, multivibrador, alarma, interruptor digital, entre otras aplicaciones más especificas.</p>
+          <h4 class="service-heading">Logica Secuencial.</h4>
+          <h5 class="service-heading">Flip-Flop con compuertas.</h5>
+          <p class="text-muted">El flip flop es el nombre común que se le da a los dispositivos de dos estados (biestables), que sirven como memoria básica para las operaciones de lógica secuencial. Los Flip-flops son ampliamente usados para el almacenamiento y transferencia de datos digitales y se usan normalmente en unidades llamadas “registros”, para el almacenamiento de datos numéricos binarios.
+          	<br><strong>Son dispositivos con memoria mas comúnmente utilizados. Sus características principales son</strong>
+          	<br>Asumen solamente uno de dos posibles estados de salida.
+            <br>Tienen un par de salidas que son complemento una de la otra.
+            <br>Tienen una o mas entradas que pueden causar que el estado del Flip-Flop cambie
+            <br><strong>Clasificacion</strong>
+            <br>Asíncronos: Sólo tienen entradas de control. El mas empleado es el flip flop RS.
+            <br>Síncronos: Ademas de las entradas de control necesita un entrada sincronismo o de reloj.</p>
+          <h5 class="service-heading">JK.</h5>
+          <p class="text-muted">El "flip-flop" J-K, es el más versátil de los flip-flops básicos. Tiene el carácter de seguimiento de entrada del flip-flop D sincronizado, pero tiene dos entradas, denominadas tradicionalmente J y K. Si J y K son diferentes, la salida Q toma el valor de J durante la subida del siguiente pulso de sincronismo.
+          	<br>Si J y K son ambos low (bajo), entonces no se produce cambio alguno. Si J y K son ambos high (alto), entonces en la siguiente subida de clock la salida cambiará de estado. Puede realizar las funciones del flip-flop set/reset y tiene la ventaja de que no hay estados ambiguos. Puede actuar tambien como un flip-flop T para conseguir la acción de permutación en la salida, si se conectan entre sí las entradas J y K. Esta aplicación de permutar el estado, encuentra un uso extensivo en los contadores binarios.</p>
+          <h5 class="service-heading">SR.</h5>
+          <p class="text-muted"> es un biestable que contiene las operaciones básicas para realizar un circuito secuencial. Al ser un circuito secuencial las operaciones indican el valor que tomará la salida al evolucionar Q+
+          (para indicar que es el nuevo valor) como una función de las entradas y del valor actual de la salida del elemento Q. Las operaciones son:
+          <br>Reset o puesta a 0: carga un 0 en la salida Q, Q+ = 0. Set o puesta a 1: carga un 1 en la salida Q, Q+ = 1. Mantenimiento del valor en la salida, Q+ = Q.
+          <br>Estas tres operaciones necesitan al menos dos entradas para realizarse: la entrada S activa realiza la operación de Set, la entrada R
+          activa realiza la operación de Reset, ninguna de las dos entradas activas mantienen el dato. El caso con las dos entradas S y R activas no se considera.</p>
+          <h5 class="service-heading">DyT.</h5>
+          <p class="text-muted">Son circuitos secuenciales formados por biestables o flip-flops generalmente de tipo D conectados en serie y una circuiteria adicional que controlará la manera de cargar y acceder a los datos que se almacenan. En los de desplazamiento se transfiere información de un flip-flop hacia el adyacente, dentro del mismo registro o a la entrada o salida del mismo.
+          <br>Es una versión simplificada del flip-flop JK. Se obtiene directamente del JK conectando juntas las entradas J y K. La designación “T" para este flip-flop es consecuencia de la característica de cambio de estado de este flip-flop (toggle).
+           FLIP FLOP TIPO D</p>
+          <h5 class="service-heading">Aplicacion de Circuitos Secuenciales.</h5>
+          <p class="text-muted">A continuación se indican ejemplos de sistemas secuenciales que pueden encontrarse en forma de circuito integrado o como estructuras en sistemas programados:
+          <br>Autómatas finitos.​
+          <br>Contadores.
+          <br>Registros.</p>
+          <a class="service-heading" href="unidad_3.pdf"><h5>Ejercicios unidad 3.</h5></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

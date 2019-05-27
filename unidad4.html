@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Convertidores.</title>
+</head>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+<body>
+
+  <!-- Unidades -->
+  <section class="page-section" id="Unidades">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" >Unidad 4</h2>
+        </div>
+      </div>
+        <div class="col-md-12">
+          <span class="fa-stack fa-4x">
+          </span>
+          <h4 class="service-heading" >Convertidores.</h4>
+          <h5 class="service-heading" >Analogico/Digital.</h5>
+          <p class="text-muted">Un conversor o convertidor de señal analógica a digital (Conversor Analógico Digital, CAD; Analog-to-Digital Converter, ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular. Donde un código es la representación unívoca de los elementos, en este caso, cada valor numérico binario hace corresponder a un solo valor de tensión o corriente.
+          	<br><strong>Tipos</strong>
+          	<br><strong>Conversor de aproximaciones sucesivas</strong>
+          	<br>Es el empleado más comúnmente cuando se requieren velocidades de conversión entre medias y altas del orden de algunos microsegundos a décimas de microsegundos. Usa un comparador para estrechar sucesivamente un rango que contenga el voltaje de entrada. En cada paso sucesivo, el conversor compara el voltaje de entrada con la salida de un conversor de digital a analógico interno, que puede representar el punto medio del rango de voltaje seleccionado. Por cada paso en este proceso, la aproximación se guarda en un registro de aproximación sucesiva (SAR por sus siglas en inglés). Por ejemplo, se considera un voltaje de entrada de 6,3V, y el rango inicial es de 0 a 16V. En el primer paso, la entrada de 6,3V se compara con 8V (el punto medio del rango 0–16V). El comparador informa de que el valor de entrada es menor de (V, así que el SAR se actualiza para estrechar el rango a 0–8V. En el segundo paso, el voltaje de entrada se compara con 4 (punto medio de 0–8). El comparador informa de que el voltaje de entrada está por encima de 4V, así que el SAR se actualiza para reflejar que el voltaje de entrada está en el rango 4–8V. En el tercer paso, el voltaje de entrada se compara con 6V (punto medio en el rango 4–8V). El comparador informa de que el voltaje de entrada es mayor que 6V, y el rango de búsqueda se convierte en 6–8V. Los pasos continúan hasta que se consigue la resolución deseada.​
+            <br><strong>Conversor de rampa</strong> 
+            <br>Se emplea en aquellos casos en los que no se requiere una gran velocidad, pero en los que es importante conseguir una buena linealidad.2​ Este conversor produce una onda de sierra que sube o baja y regresa rápidamente a cero. Cuando comienza la subida o la bajada (con la "rampa"), un temporizador empieza a contar. Cuando el voltaje de la rampa alcanza el voltaje de entrada, se dispara un comparador, y se graba el valor del temporizador. Este tipo de convertidores necesitan el menor número de transistores. El tiempo de la rampa es sensible a la temperatura porque el circuito que genera la rampa es a menudo un simple oscilador. Hay dos soluciones: utilizar un contador con reloj que conduce un conversor digital a analógico y luego usar el comparador para preservar el valor del contador, o calibrar la rampa cronometrada. Una ventaja del conversor de rampa es que comparar una segunda señal sólo requiere otro comparador y otro registro para almacenar el valor de la tensión.
+            <br><strong>Conversor doble-rampa</strong></p>
+          <h5 class="service-heading" >Digital/Analogico.</h5>
+          <p class="text-muted">Un conversor de señal digital a analógica o conversor digital analógico, CDA o DAC (del inglés, digital to analogue converter) es un dispositivo para convertir señales digitales con datos binarios en señales de corriente o de tensión analógica. Hay distintos componentes que pueden intervenir en este proceso, como interruptores simples, red de resistores, fuentes actuales o condensadores. Un convertidor de analógico a digital (ADC) realiza la operación inversa.
+          <br>Las señales en la naturaleza tienen las características de ser continuas en su magnitud y en el diagrama temporal. La digitalización es necesaria para el procesamiento, almacenamiento y filtrado de señales analógicas con los beneficios que las señales digitales conllevan, como mayor inmunidad al ruido, circuitos electrónicos más simples para el procesamiento y almacenamiento
+          <br><strong>Tipos</strong>
+          <br><strong>Redes escalera</strong>
+          <br>Las redes escalera permiten reducir el rango de valores de las resistencias. En la figura 4 se muestra un ejemplo, aunque no profundizaremos sobre este tipo de circuitos ya que en la actualidad están superados por las redes R-2R.
+          <br><strong>Redes R-2R</strong>
+          <br>Una red resistiva, tiene la particularidad de que cualquiera sea el número de secciones la resistencia vista (excepto al final) es R
+          <br>La masa virtual en la entrada inversora del amplificador operacional garantiza que la propiedad de la red R-2R se cumpla. Que el régimen sea igual al de la red escalera original lo garantiza el hecho de que ya sea que la llave esté en una u otra posición, el terminal de abajo de cada resistencia esta a un potencial 0 (ya sea masa real o virtual). Dado que la corriente suministrada por el potencial de referencia es i = Vref / R, la forma en que se reparten dichas corrientes permite concluir que</p>
+         <h5 class="service-heading" >Aplicaciones.</h5>
+          <p class="text-muted">Los DAC se utilizan siempre que la salida de un circuito digital tiene que ofrecer un voltaje o corriente analógicos para impulsar o activar un dispositivo analógico. Algunas de las aplicaciones más comunes se describen a continuación.
+          <br><strong>Control.</strong> 
+          <br>la salida digital de una computadora puede convertirse en una señal de control analógica para ajustar la velocidad de un motor o para controlar casi cualquier variable física.
+          <br><strong>Análisis automático.</strong> 
+          <br>los ordenadores personales pueden ser programados para generar las señales analógicas (a través de un DAC) que se necesitan para analizar circuitos analógicos. La respuesta de salida analógica del circuito de prueba normalmente se convertirá en valor digital por un ADC.
+          <br><strong>Control de amplitud digital.</strong> 
+          <br>un DAC multiplicativo se puede utilizar para ajustar digitalmente la amplitud de una señal analógica. Recordemos que éste genera una salida que es el producto de un voltaje de referencia y la entrada binaria. Si dicho voltaje es una señal que varía con el tiempo, la salida del DAC seguirá esta señal, pero con una amplitud determinada por el código de entrada binario. Una utilización normal de esta aplicación es el “control de volumen” digital, donde la salida de un circuito o computadora digital puede ajustar la amplitud de una señal de audio.
+          <br><strong>Convertidores A/D.</strong> 
+          <br>varios tipos de convertidores A/D utilizan unos DAC que son parte de sus circuitos. La mayoría de las señales de audio modernas se almacenan de forma digital (por ejemplo, MP3s y CDs) y para poder ser escuchadas a través de altavoces deben ser convertidas en analógicas. Lectores de CD, reproductores digitales de la música, y tarjetas de sonido de los PC montan por ello un dispositivo de este tipo de forma interna.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
